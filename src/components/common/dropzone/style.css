@@ -1,0 +1,20 @@
+.dropzone-container .dropzone{
+    /* min-height: 150px; */
+    border:2px dashed rgba(0,0,0,0.3);
+    background: #eeeeee;
+    padding: 20px 20px;
+}
+
+.dropzone-container .dropzone .placeholder{
+    color:#6d6e78;
+    font-size: 15px;
+}
+.dropzone-container .dropzone .error{
+    color:red;
+    font-size: 13px;
+}
+
+.dropzone-container .remove-link:hover{
+    text-decoration: underline;
+    color:red
+  }

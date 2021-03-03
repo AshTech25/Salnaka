@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #a7ff83;
+}
+
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEE;
+    font-family: Roboto;
+}
+
+body::-webkit-scrollbar-corner {
+    background: #333333
+}
+
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #555555
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--primary-color)
+}

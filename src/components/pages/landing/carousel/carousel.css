@@ -1,0 +1,14 @@
+.slick-dots li a:hover,
+.slick-dots li a:focus
+{
+    opacity: 1;
+}
+.slick-dots li a
+{
+    opacity: .25;
+
+}
+.slick-dots li.slick-active a
+{
+    opacity: .75;
+}
